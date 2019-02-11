@@ -23,16 +23,23 @@
     para nombrar las variables usaremos (_,$ oletras minusculas)
     let tiene ahambito de bloque. y con var
     se sobre escriben las variables.
-    
+
 --- las constantes con la palabra const
 -------------*************---------------
 --- dos tipos 
     primitivos 
         string(texto);
         number (numero);
+            javascript no diferencia entre decimales y enteros.
+            NAN no es un numero.
         boolean (binario);
+            true o false
         undefined 
+            es cuando no se le asigna valor a una variable.
         null
+            no existe el valor.
+
+            valor unario typeof
     compuestos u objetos
         arrays
         objetos
@@ -45,3 +52,21 @@
 
 --- ecmascrpt6 templatestring puedes concatenar.` `
 --- los numero son sin comillas;
+
+--- Operadores aritmeticos
+    +,-,*,/,%
+--- incremento y decremento
+    ++ , --
+    +=, -=, *=, /=    
+    = asigna 
+    == comapra valor
+    === compara tipo de datos y valor.
+--- propiedades y metodos.
+    la propiedad es una caracteristica
+        peso, tamaño, color , alto.
+    metodo es alago que se puede hacer.
+        perro.cola
+        perro.patas
+
+        _proto_ = prototipos
+        requieren una ejecucion dentro del programa

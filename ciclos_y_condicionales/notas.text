@@ -1,0 +1,6 @@
+--- PROPIEDADES
+    la longitud, los espacios cuentan.
+    quitar espacion al inicio y al final
+--- METODOS SIN PARAMETROS
+    trim
+    toUpperCase = convierte todo en minuscula
