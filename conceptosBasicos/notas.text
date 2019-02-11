@@ -1,0 +1,44 @@
+--- usar el punto y coma al fina 
+    paraque el interprete no se confunda.
+--- tratar de no usar var ya que no tiene 
+    el bloque de scope, no distingue
+    o prioriza las variables en x lugar del codigo
+    constantemente se esan reescribiendo
+    las variables.
+--- recomendable usar indendacion del codigo
+    por que es mas legible el codigo
+
+--- libreria airbnb/javascript para ver las reglas
+    de la forma de codificar en js.
+--- las constantes llegan en ecmascrpt 6.
+--- las variables son un espacio en perm_device_information
+    donde guardamos informacion
+--- las variables en js pueden empezae con _,$ o azAZ
+--- javascript usa el camelcase
+--- es recomendable llamar los metodos
+
+----------variables y constantes-------
+--- las variables si indican con la palabra let
+    undefined es cuando no as asignado la variable 
+    para nombrar las variables usaremos (_,$ oletras minusculas)
+--- las constantes con la palabra const
+-------------*************---------------
+--- dos tipos 
+    primitivos 
+        string(texto);
+        number (numero);
+        boolean (binario);
+        undefined 
+        null
+    compuestos u objetos
+        arrays
+        objetos
+        maps 
+        sets 
+        funciones
+--- javascript esta basado en prototipos
+--- puedes usar comillas dobles o sencillas
+    pero no las dos al mismo tiempo.
+
+--- ecmascrpt6 templatestring puedes concatenar.` `
+--- los numero son sin comillas;
