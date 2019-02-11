@@ -6,5 +6,6 @@ function prueba(){
 let _palabra,nodicha;
 let $amor;
 let porti;
-
+let precio = 100; 
+const altura= 1.70;
 const anioNacimiento = 1990;

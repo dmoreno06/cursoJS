@@ -12,4 +12,11 @@
 
   //boolean
   true, false
+  let a = "dia";
+  let b = "hora2";
+  if (a == b){
+    console.log('son iguales');
+  }else{
+    console.log('no son iguales');
+  }
 //complejos

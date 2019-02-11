@@ -21,6 +21,9 @@
 --- las variables si indican con la palabra let
     undefined es cuando no as asignado la variable 
     para nombrar las variables usaremos (_,$ oletras minusculas)
+    let tiene ahambito de bloque. y con var
+    se sobre escriben las variables.
+    
 --- las constantes con la palabra const
 -------------*************---------------
 --- dos tipos 
