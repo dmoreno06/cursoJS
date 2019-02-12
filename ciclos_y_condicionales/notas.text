@@ -1,6 +1,17 @@
 --- PROPIEDADES
     la longitud, los espacios cuentan.
-    quitar espacion al inicio y al final
+    quitar espacion al inicio y al final length.
 --- METODOS SIN PARAMETROS
-    trim
+    trim queta lso espacios en blaco a los lados
     toUpperCase = convierte todo en minuscula
+
+--- indexOf = son dos parametros y los parametros opcionales se ensierran en [i]
+    solo muestra los primeros que encuentra. toma el numero final -1 de la cadena
+--- lastIndexOf(); empieza a buscar 
+    de atras para de lante
+
+--- substr el segundo valor es la cantidad de caracteres a mostrar
+    los numero negativos empiezan a contar desde atras.
+
+--- nuevos metodos es6 (debuelven boolean)
+        startswith(), endswith(), includes()
