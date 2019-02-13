@@ -15,3 +15,33 @@
 
 --- nuevos metodos es6 (debuelven boolean)
         startswith(), endswith(), includes()
+
+
+--- condicional if- else- else if--------------
+    si clocas y (&) las doben de ser verdaderas
+    y si colocas o(||) una de las dos se debe de cumplir
+
+    prompt debuelve un string.
+
+--- valores truthy y falsy values-----
+    no es un valor falso pero se comporta 
+    como un falso o como un booleano.
+
+    -truthy: strings no vacios,[],{},numeros diferentes de 0
+    -falsy: 0, string vacio, undefined, null, NaN
+--- switch -----------
+        compara un valor con diferentes salidas o respuestas
+        cada case debe de terminar en un break.
+
+--- operador terminar------
+    es una forma abreviada de el if 
+    requiere el valor verdadero y el valor verdadero
+
+--- lops o ciclos--------------
+    for 
+        exprecion : comparacion o comparacion o limite : decremento o aumento
+    for of
+        permite definir un valor y definir el valor que se lo vas a asignar 
+    while 
+        ejecuta una porcion del codigo mientras se cumpla una condicion.
+        do while el enunciado se ejecuta por lo menos una vez
