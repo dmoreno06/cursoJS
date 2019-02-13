@@ -30,6 +30,7 @@ do{
 for(let value of teachers){
     console.log(value);
 }
+//puede recorrer string
 let nombre = 'Marcela';
 for(let value of nombre){
     console.log(value);
