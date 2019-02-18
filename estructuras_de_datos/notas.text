@@ -1,3 +1,39 @@
 un array es un conjunto de datos 
 el indece de los array comienzaa en 0
 el ultimo elemento siempre es length-1
+
+--- agregar elementos a un array ---
+    .push() = añade elementos al final
+    .unshift() = añade el elemto al inicio
+    
+--- eliminar elementos de un array ---
+    eliminar un solo elemento sin parametro
+        .pop() al final
+        .shift() al inicio
+--- separador de elementos join ---
+    por defecto el separador es la ","
+    con el join podremos definirlo nosotros
+    mismos con espacios, puntos o lo que necesitemos
+--- eliminar o agragar elementos---
+    .splice() con dos parametros elimina elementos crea un nuevo array
+        splice(2,1);//elemina el elemento que esta en la pocicion dos
+                en(2,1)el nuermo 2 es la pocicion del elemento en el vector y 
+                el 1 es la cantodad de elemento que quiero borar acia la derecha.
+            recordemos que los array comienzan en 0
+        splice(2,1,itrms);modifica y añade n elementos despues de la pociocion dada
+    .slice() crea un nuevo array, reibe dos parametros 1, desde asta 3
+        si no le paso parametros me crea una copia de el array
+    .find()devolver el primer elemento que cumpla x funcion
+        devuelve el elemento.
+    numIndex = devuelve el indice del elemento debuelve la primera concidencia
+--- iteradores
+        permite ir recorriedo un elemento iterable.
+        este guarda la pocicion,
+        son objetos que tienen un metodo next debuelve un ogjeto 
+        con dos propiedades value, done
+            done= es un boleano
+            value = es el valor actual del objeto
+            para recuperar un iteradores
+                .keys() .values() .entries()
+
+                done= true indica que ya termino de recorrer el elmento
