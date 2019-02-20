@@ -43,7 +43,8 @@ console.log(arr.indexOf(2));
     let arr1 =[1,2,3,4,5];
     let num = arr1.find(parametro => parametro > 3);
     console.log(num);
-//numIndex 
+//numIndex
+let numIndex = arr1.findIndex(parametro => parametro > 3);
     console.log(numIndex);
 //iteradores
     let iterador = arr.keys();

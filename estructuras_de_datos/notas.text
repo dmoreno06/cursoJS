@@ -37,3 +37,8 @@ el ultimo elemento siempre es length-1
                 .keys() .values() .entries()
 
                 done= true indica que ya termino de recorrer el elmento
+ --- objetos son prototipos mas estructurados que el array
+    nos permite tener informacion mas detallada 
+    dentro de un objetos podemos crear muchos objetos.
+--- una referencia es una parte del documento   
+    Es6 permite crear una copia de un elemnto            
