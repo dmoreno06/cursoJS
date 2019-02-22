@@ -1,4 +1,4 @@
-let persona = {
+const persona = {
     nombre: 'diana',
     edad: '28',
     altura: '170',
@@ -7,7 +7,7 @@ let persona = {
     saludar(){
         return 'hola a todas las personas';
     }
-}
+};
 persona.ciudad= 'medellin';
 console.log(persona.ciudad);
 //operadores delete= elimina una propiedad 
@@ -17,3 +17,18 @@ console.log(persona.persona);
 console.log('gustoMucical' in persona);
 // copia de objeto con es6
 let aliens= Object.assign({},persona);
+console.log(persona);
+
+let m ='hola';
+let n = 'mundo';
+let myObj = {
+    m,
+    n
+}
+console.log(myObj);
+//expreciones en propiedad
+let a ='hola',b= 'mundo';
+let myObj2 = {
+    [a+b]: 'hola mundo'
+}
+console.log(myObj2);

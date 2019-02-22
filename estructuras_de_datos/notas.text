@@ -42,3 +42,17 @@ el ultimo elemento siempre es length-1
     dentro de un objetos podemos crear muchos objetos.
 --- una referencia es una parte del documento   
     Es6 permite crear una copia de un elemnto            
+
+
+--- metodos que nor permiten recorrer arrays sin
+    el uso de ciclos.
+    .map()
+        mapear el array 
+            bamos a hacer le un cambio a cada elemento del array
+            *recibe un callbac
+            *tranforma cada elemento del array segun el callbac y debuelve un nuevo array
+    .filter()
+        filtra los elementos del array
+            filtramos algunos elemetos del array original y se debuelve en un nuevo array
+    .reduce()
+        toma todos los elementos del un array y retorna un unico valor.
