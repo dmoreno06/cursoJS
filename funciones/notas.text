@@ -1,0 +1,16 @@
+***************Funciones**************
+    las funciones son un bloque de codigo reutilizable
+    --- estructura de la funciones
+        function nombreFuncion(parametro1,parametro2,parametro3){
+            cogigo
+        }
+    --- las funciones deben de ser declaradas 
+        para usrlas deben de ser invocadas o llamadas.
+            -un parametro es un dato temporal que existe en la funcion
+            -un argumento es el dato real de dato.
+    --- las funciones requieren ser usadas y se deben de colocar los parenteces
+        con sus respectivos parametros si lo necesita.
+        -una fincion se considera un objeto de primera clase en javascript
+            dado que puede ser tratada como un dato cualquiera y ser usada de la
+            forma que deseemos en el codigo
+        -con retturn puedo tambien debolver un objeto
