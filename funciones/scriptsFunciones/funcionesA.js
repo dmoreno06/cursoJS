@@ -26,3 +26,14 @@ function resta(n1,n2){
 }
 let resultado2 = resta(10,8);
 console.log(resultado2);
+//funcion autoinvocada
+let multiplicar = (function(n1,n2){
+    return n1*n2;
+})(5,8);
+console.log(multiplicar);
+//scoup
+(function(){
+    let algo = 'algo';
+})();
+
+console.log(algo);
