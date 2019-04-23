@@ -14,3 +14,12 @@
             dado que puede ser tratada como un dato cualquiera y ser usada de la
             forma que deseemos en el codigo
         -con retturn puedo tambien debolver un objeto
+        - scoup globales es una funcion que no esta dentro de notifications_paused
+
+--- las funciones pueden estar dentro de otras funciones
+
+--- una funcion puede retornar una funcion.
+
+--- los parentecis son operadores, es el que dice ejecute lo que tengo dentro
+
+--- funciones auto invocadas q se llaman a si mismas

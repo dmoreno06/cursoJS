@@ -27,13 +27,17 @@ function resta(n1,n2){
 let resultado2 = resta(10,8);
 console.log(resultado2);
 //funcion autoinvocada
-let multiplicar = (function(n1,n2){
-    return n1*n2;
+let multiplicar = (function(n,m){
+    return n*m;
 })(5,8);
 console.log(multiplicar);
-//scoup
-(function(){
-    let algo = 'algo';
-})();
+//funcion constructora
 
-console.log(algo);
+let Municipios = function(nombre,poblacion){
+    this.nombre = nombre;
+    this.poblacion = poblacion;
+}
+
+let choco = new Municipios('Quibdo', 1799);
+
+console.log(choco);
