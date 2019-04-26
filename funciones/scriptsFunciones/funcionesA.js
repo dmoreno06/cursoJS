@@ -41,3 +41,15 @@ let Municipios = function(nombre,poblacion){
 let choco = new Municipios('Quibdo', 1799);
 
 console.log(choco);
+
+//apply() y call()
+
+function addSum(a,b,c) {
+    return a+b+c;
+}
+let numeros = [5,4,7];
+let myAdd = addSum.apply(undefined, numeros);
+console.log(myAdd);
+
+let myAddCall = addSum.call(undefined, 4,7,9);
+console.log(myAddCall);
