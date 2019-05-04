@@ -1,0 +1,9 @@
+this es un apuntador hacia un objeto
+-cuando la es una funcion this es undefined
+
+-this devuelbe el contexto o donde esta el objeto
+
+    el setInterval recibe una funcion y como segunda opcion
+    un tiempo en segundo.
+si se coloca el nombre de una clase en mayuscula 
+estamos dicendo que ese es l contrunctor de la clase

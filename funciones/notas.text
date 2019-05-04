@@ -23,3 +23,11 @@
 --- los parentecis son operadores, es el que dice ejecute lo que tengo dentro
 
 --- funciones auto invocadas q se llaman a si mismas
+templete string
+--- Scope es el ambito o contexto donde se ejecuta una funcion 
+    y existen sus variables.
+    - las funciones pueden acceder a el scope que esta por fuera de ellas
+
+    -CLOSURES
+        que podemos utilizar una funcion desde afuera haciendo 
+        que retorne a otra.
